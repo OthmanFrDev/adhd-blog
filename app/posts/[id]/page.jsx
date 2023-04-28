@@ -5,7 +5,7 @@ import Products from "@/app/components/shop/products/Products";
 
 const page = () => {
   return (
-    <section className="container mx-auto md:px-2 py-16 w-9/12 lg:w-1/2 md:w-1/2">
+    <section className="container mx-auto text-justify md:px-2 py-16 w-9/12 lg:w-1/2 md:w-1/2">
       <div className="flex justify-center">
         <Author />
       </div>

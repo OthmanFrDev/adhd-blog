@@ -1,4 +1,3 @@
-import Author from "@/app/components/_child/Author";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -6,7 +5,7 @@ import React from "react";
 const Product = () => {
   return (
     <div className="flex gap-5">
-      <div className="image flex flex-col justify-start">
+      <div className="image flex x-col justify-start">
         <Link href={"/"}>
           <Image
             src={"/images/img1.jpg"}
