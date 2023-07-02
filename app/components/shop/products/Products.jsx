@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './product-item/Product';
+import NewProduct from './product-item/NewProduct';
 
 const Products = () => {
   return (
@@ -11,7 +12,7 @@ const Products = () => {
         <Product />
         <Product />
         <Product />
-        <Product />
+        <NewProduct />
       </div>
     </section>
   );
